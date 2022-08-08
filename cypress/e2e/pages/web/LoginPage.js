@@ -11,12 +11,12 @@ class homeSauceLoginPage {
 
     //escribe nombre de usuario
     typeUsername(username) {
-      this.elements.usernameInput().type(username);
+      this.elements.usernameInput().clear().type(username);
     }
   
     //Escribe password
     typePassword(password) {
-      this.elements.passwordInput().type(password);
+      this.elements.passwordInput().clear().type(password);
     }
   
     //click en boton login
