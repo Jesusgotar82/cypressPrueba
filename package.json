@@ -11,7 +11,8 @@
     "test_run_chrome": "cypress run --browser chrome --e2e",
     "test_run_firefox": "cypress run --browser firefox --e2e",
     "test_run_chrome_headed": "cypress run --browser chrome --e2e --headed",
-    "test_run_firefox_headed": "cypress run --browser firefox --e2e --headed"
+    "test_run_firefox_headed": "cypress run --browser firefox --e2e --headed",
+    "test_run_chrome_web": "cypress run -e TAGS='@web'"
   },
   "keywords": [
     "prueba",
