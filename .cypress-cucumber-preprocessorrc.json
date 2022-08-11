@@ -1,7 +1,8 @@
 {
     "json": {
-      "enabled": false,
-      "output" : "jsonlogs/log.json"
+      "enabled": true,
+      "output" : "jsonlogs/log.json",
+      "formater": "cucumber-json-formatter"
     },
     "messages": {
       "enabled": true,
@@ -11,5 +12,3 @@
         "cypress/e2e/features/[filepath]/steps.{js,ts}"
     ]
 }
-
- 

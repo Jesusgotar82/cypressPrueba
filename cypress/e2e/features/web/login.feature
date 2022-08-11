@@ -1,5 +1,5 @@
 @example @web
-Feature: login
+Feature: Login
     Background:
         Given A user opens a saucelabs website
     Scenario: Success Login

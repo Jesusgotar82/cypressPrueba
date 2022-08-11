@@ -1,5 +1,5 @@
 @example @mobile
-Feature: login
+Feature: Login Mobile
     Background:
         Given A user opens a saucelabs website in iphone-8
         #Given A user opens a saucelabs website in macbook-11

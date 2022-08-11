@@ -49,8 +49,9 @@ Thumbs.db
 *.wmv
 
 #-----
-#logs
+#logs & reports
 jsonlogs/
 screenshots/
+reports/
 
 *.ndjson

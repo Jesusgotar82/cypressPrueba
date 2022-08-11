@@ -5,6 +5,7 @@ class homeSauceLoginPage {
       passwordInput: () => cy.get("#password"),
       loginBtn: () => cy.get("#login-button"),
       errorMessage: () => cy.get('h3[data-test="error"]'),
+      //usernameInput: () => cy.get("input[data-test='username']"),
     };
   
     //acciones por elemento
