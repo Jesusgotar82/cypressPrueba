@@ -43,4 +43,5 @@ para generar el reporte HTML a partir del reporte Json es necesario ejecutar el 
 
 ```
 $ node cucumber-html-reports.js
+$ node cucumber-html-reports2.js --> Themes: ['bootstrap', 'hierarchy', 'foundation', 'simple']
 ```

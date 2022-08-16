@@ -7,6 +7,7 @@ import {
 const loginPage = require("../../../pages/web/LoginPage");
 
 Given("A user opens a saucelabs website", () => {
+  //cy.viewport("macbook-11")
   cy.visit("/");
 });
 

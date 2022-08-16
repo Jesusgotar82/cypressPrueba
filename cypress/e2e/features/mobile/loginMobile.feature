@@ -1,8 +1,9 @@
-@example @mobile
+@full @mobile
 Feature: Login Mobile
     Background:
         Given A user opens a saucelabs website in iphone-8
         #Given A user opens a saucelabs website in macbook-11
+
     Scenario: Success Login
         When A user enters the username "standard_user"
         And A user enters the password "secret_sauce"

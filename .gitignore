@@ -53,6 +53,7 @@ Thumbs.db
 jsonlogs/
 screenshots/
 reports/
+reports2/
 
 *.ndjson
 

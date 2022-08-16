@@ -1,4 +1,4 @@
-@example @web
+@full
 Feature: Login
     Background:
         Given A user opens a saucelabs website

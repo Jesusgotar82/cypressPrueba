@@ -14,3 +14,23 @@
             | "PEX Clamp Tool"  |
             | "GENMAX 3200 Watt Inverter Generator" |
             | "20V Max Drill & Home Tool Kit" |
+
+    Scenario: Búsqueda de lista de herramientas
+        Given As a user I want to execute a GET for <numberOfItems> <ToolCategory>
+        Then Verify '@get_tools_data' response status code is <statusCode>
+        And Verify the number of tools obtained equals <numberOfItems>
+        Examples:
+            | ToolCategory | numberOfItems | statusCode |
+            | "ladders"  | 3 | 200 |
+            | "plumbing"  | 3 | 200 |
+
+    @JJC
+    Scenario: Ejemplo comando post con body json
+        Given As the user <customerName> I want to create an order for <toolCode>
+        Then Verify response status code is 201
+         And Verify order status is 'created'
+        Examples:
+            | customerName | toolCode |
+            | "Marcelo Torres"  | "4643"  | 
+
+            
