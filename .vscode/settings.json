@@ -1,6 +1,8 @@
 {
     "cucumberautocomplete.steps": [
-        "cypress/e2e/features/*/*/steps.{js,ts}"
+        "cypress/e2e/features/web/*/steps.{js,ts}",
+        "cypress/e2e/features/mobile/*/steps.{js,ts}",
+        "cypress/e2e/features/api/*/steps.{js,ts}"
       ],
    "cucumberautocomplete.syncfeatures": "cypress/e2e/features/*/*.feature",
    "cucumberautocomplete.strictGherkinCompletion": false,
